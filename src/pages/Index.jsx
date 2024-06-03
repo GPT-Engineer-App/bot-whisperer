@@ -3,7 +3,7 @@ import { Container, VStack, HStack, Input, Button, Box, Text, IconButton } from 
 import { FaPaperPlane } from "react-icons/fa";
 
 const Index = () => {
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([{ text: "This is Kightly. Please select one of the following options: a: tomato, b: banana, c: carrot", sender: "bot" }]);
   const [input, setInput] = useState("");
 
   const handleSend = () => {
